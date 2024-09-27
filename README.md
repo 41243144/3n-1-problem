@@ -82,6 +82,6 @@ Sample Output
 ## 解法2 動態規劃
 利用動態規劃記錄已找過的數字，讓重複出現的數字不必再操作一次
 
-1.如果nmuner在字典中，則返回number在陣列中的值
-2.如果number不在陣列中且number為奇數，number ← number * 3 + 1，否則number / 2
-3.重複步驟2直到nmuber = 1或找到number
+1. 如果nmuner在字典中，則返回number在陣列中的值
+2. 如果number不在陣列中且number為奇數，number ← number * 3 + 1，否則number / 2
+3. 重複步驟2直到nmuber = 1或找到number
